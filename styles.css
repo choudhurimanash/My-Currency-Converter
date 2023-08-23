@@ -339,7 +339,7 @@ footer{
     }
   }
 
-  @media (max-width: 370px) {
+  @media (max-width: 395px) {
     body{
         background: linear-gradient(
             rgb(205, 93, 205),
