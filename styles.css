@@ -338,3 +338,52 @@ footer{
 
     }
   }
+
+  @media (max-width: 370px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+
+    .logo{
+        margin: auto;
+        color: blue;
+    }
+
+    nav{
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .container .btn{
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        font-size: 16px;
+        color: white;
+    }
+    .container label{
+        font-size: 8px;
+        color: white;
+    }
+    .container .output h2{
+        font-size: 14px;
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
