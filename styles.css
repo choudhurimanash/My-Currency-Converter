@@ -119,7 +119,7 @@ footer{
     color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     body{
         background: linear-gradient(
             rgb(205, 93, 205),
@@ -281,6 +281,55 @@ footer{
     }
     .container .output h2{
         font-size: 18px;
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
+
+  @media (max-width: 450px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+
+    .logo{
+        margin: auto;
+        color: blue;
+    }
+
+    nav{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .container .btn{
+        width: 90%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        font-size: 18px;
+        color: white;
+    }
+    .container label{
+        font-size: 10px;
+        color: white;
+    }
+    .container .output h2{
+        font-size: 16px;
         color: white;
     }
     .container .output table{
