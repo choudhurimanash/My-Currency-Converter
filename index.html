@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Coverter - Convert your currency</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">MCC</div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+        <h1>Choose a currency to convert</h1>
+      <form action="/action.php" method="get">
+        <label for="quantity">Choose a quantity:</label>
+        <input type="number" name="quantity" min="1" max="10">
+        <label for="Currency">Choose a currency:</label>
+        <select name="Currency">
+          <option value="INR">Indian Rupee</option>
+          <option value="USD">US Dollar</option>
+          <option value="EUR">Euro</option>
+        </select>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+      <div class="output">
+        <h2>Here is your converted values in different currencies</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>Copyright &copy; All Right Reserved.</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
