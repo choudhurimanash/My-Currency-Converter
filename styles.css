@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(
+        rgb(233, 200, 233),
+        rgb(183, 225, 233) 40%,
+        rgb(235, 237, 223) 80%
+    );
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: 900;
+    display: flex;
+    background-color: rgb(201, 64, 201);
+    color: white;
+    padding: 23px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0 25px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav li a{
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+     transition: all;
+     transition-duration: 500ms;
+}
+
+nav li a:hover{
+    color: bisque;
+    margin: 1.03px;
+}
+
+.container{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 80vw;
+}
+
+.container h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.container form{
+   display: flex;
+   flex-direction: column;
+   width: 23vw;
+   margin: auto;
+}
+
+.container form input[type='number'], select, label{
+   font-size: 23px;
+   margin: 10px 0;
+}
+
+.container .btn{
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(206, 25, 206);
+    border-radius: 5px;
+    border: 2px solid rgb(206, 25, 206);
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+
+.container .btn:hover{
+    background-color: rgb(214, 165, 214);
+    color: black;
+}
+
+.container .output h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container .output table{
+    margin: auto;
+    margin-top: 10px;
+    width: 30vw;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.output{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(205, 73, 205);
+    margin: auto;
+    padding: 25px;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+
+    nav ul{
+        margin: auto;
+    }
+    .logo{
+        margin-left: 40px;
+    }
+    .container .btn{
+        width: 70%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        font-size: 20px;
+        color: white;
+    }
+    .container label{
+        font-size: 13px;
+        color: white;
+    }
+    .container .output h2{
+        font-size: 18px;
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
+
+  @media (max-width: 1200px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+    .logo{
+        margin-left: 40px;
+    }
+    .container .btn{
+        width: 40%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        color: white;
+    }
+    .container label{
+        color: white;
+    }
+    .container .output h2{
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
+
+  @media (max-width: 898px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+
+    .logo{
+        margin-left: 40px;
+    }
+    .container .btn{
+        width: 50%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        font-size: 20px;
+        color: white;
+    }
+    .container label{
+        font-size: 13px;
+        color: white;
+    }
+    .container .output h2{
+        font-size: 18px;
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
+
+  @media (max-width: 714px) {
+    body{
+        background: linear-gradient(
+            rgb(205, 93, 205),
+            rgb(92, 188, 207) 40%,
+            rgb(201, 215, 118) 80%
+        );
+    }
+
+    .logo{
+        margin-left: 40px;
+    }
+    .container .btn{
+        width: 70%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(25, 25, 206);
+        border-radius: 5px;
+        border: 2px solid rgb(25, 25, 206);
+        color: white;
+        margin: auto;
+        cursor: pointer;
+    }
+    .container h1{
+        font-size: 20px;
+        color: white;
+    }
+    .container label{
+        font-size: 13px;
+        color: white;
+    }
+    .container .output h2{
+        font-size: 18px;
+        color: white;
+    }
+    .container .output table{
+        width: 45vw;
+        color: white;
+
+    }
+  }
